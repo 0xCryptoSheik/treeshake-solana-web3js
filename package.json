@@ -1,0 +1,19 @@
+{
+  "name": "treeshake-solana-web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.1",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@solana/web3.js": "file:../solana-web3.js"
+  }
+}
